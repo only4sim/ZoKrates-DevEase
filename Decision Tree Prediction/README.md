@@ -59,7 +59,7 @@ Scalability: ZoKrates-DTP supports various decision tree models and can be easil
 
 In this demo, we provide two projects, one is plot_iris_dtc.ipynb for classifying iris using scikit-learn. This is a Jupyter Notebook file, which includes not only training and using decision trees, but also a newly designed converter tree_to_code(tree, feature_names). This function can generate the Rust code from the trained decision tree. This file can be run on most Jupyter Notebook.
 
-Another project MYPROJECT is used to prove and validate the results of decision trees querying iris species based on EVM. Then we will show how to build and excute this project.
+Another project Demo is used to prove and validate the results of decision trees querying iris species based on EVM. Then we will show how to build and excute this project.
 
 A simple experimental approach could be to directly upload the DTP.zok file to the Remix online IDE, install the ZoKrates plugin, and sequentially perform the compilation, computation, setup, proof generation, and export of the verifier.
 

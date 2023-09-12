@@ -1,3 +1,8 @@
+# How to use ZoKrates with ether.js
+
+Probably due to an update issue, there is a formatting error or constant printing of garbled code when calling Zokrates' verifier contract using ether.js. If you refer to the official documentation for Zokrates, you will see that it doesn't actually work. Thanks to the help of Alberto Viera, we found a solution.
+
+```javascript
 const ethers = require('ethers');
 const { abi } = require('./compile');
 const fs = require('fs');
@@ -21,9 +26,9 @@ const provider = new ethers.providers.JsonRpcProvider(providerRPC.moonbase.rpc, 
 }); // Change to correct network
 
 const account_from = {
-  privateKey: '091e67bea524ca528375b55da511a6aedd6926b128994587866c136cab241cb9',
+  privateKey: 'YOUR_KEY_DO_NOT_UPLOAD_ONLINE',
 };
-const contractAddress = '0x0C1f5F184704402E45b886153E141174e00EAA68';
+const contractAddress = 'YOUR_CONTRACT';
 const _value = 3;
 
 const proof_source = fs.readFileSync('proof.json', 'utf8');
@@ -38,8 +43,7 @@ const increment = async () => {
     `Calling the increment by ${_value} function in contract at address: ${contractAddress}`
   );
 
-  // const createReceipt = await incrementer.increment(_value);
-  // await createReceipt.wait();
+
   proof = JSON.parse(proof_source);
   // console.log(proof);
   // console.log(abi);
@@ -58,13 +62,16 @@ const increment = async () => {
     }
   }
 
-  const createReceipt =  await contract.verifyTx(inputStruct, [ethers.BigNumber.from(proof.inputs[0]), ethers.BigNumber.from(proof.inputs[1])]);
-  // const createReceipt =  await contract.populateTransaction.verifyTx(inputStruct, [ethers.BigNumber.from(proof.inputs[0])]);
+  const createReceipt =  await contract.verifyTx(inputStruct, [ethers.BigNumber.from(proof.inputs[0])]);
 
-  //const createReceipt = iface.encodeFunctionData("verifyTx",[proof.proof.a, proof.proof.b, proof.proof.c, proof.inputs]);
   console.log(createReceipt);
   // await createReceipt.wait();
   // console.log(`Tx successful with hash: ${createReceipt.hash}`);
 };
 
 increment();
+```
+
+The main issue addressed here is access and type matching.
+
+[1] [Github Repo](https://github.com/only4sim/zk-base-Moonbeam/tree/main)
