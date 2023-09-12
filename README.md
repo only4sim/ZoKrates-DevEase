@@ -36,6 +36,7 @@ Recognizing the significance of neural networks in machine learning, our project
 Our project marks a good milestone in the advancement of zero-knowledge computation on ZoKrates. By combining the Decision Tree Prediction(ZoKrates-DTP) and Pedersen Commitment, we offer developers the means to build privacy-preserving and secure ML applications. Our project is not an end, but the beginning of strengthening ZoKrates capabilities and developer-friendliness in extensions and integrations.
 
 ## Demo
+- [Decision Tree Prediction(ZoKrates-DTP)](https://www.youtube.com/watch?v=jCn-xm2Amoo)
 - [Pedersen Commitment Library](https://youtu.be/8kZHOQtp1Ck)
 
 

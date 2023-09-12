@@ -83,7 +83,7 @@ Using these four features, ./methods/guest/src/bin/prediction.rs can identify th
 Then the host can verify the excucation results with the help of receipt and journal.
 
 ## Video Tutorial
-For a video demo, check out this [DEMO](https://youtu.be/LE9eFDRjSYo).
+For a video demo, check out this [DEMO](https://www.youtube.com/watch?v=jCn-xm2Amoo).
 
 
 *This work is build with the ZK-DTP.*
