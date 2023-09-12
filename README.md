@@ -16,23 +16,6 @@ Integrate other standard libraries: Integrate the Pedersen Commitment scheme to 
 Enhance Official Documentation and Tutorials: Revamp and update the existing documentation to make it more accurate, informative, and user-friendly, with a particular focus on the ether.js and standard library.
 
 ## Plans
-### Expand Common Libraries
-
-- Assessment of Current Libraries: Analyze existing libraries to identify gaps and areas for expansion.
-
-- Commitment Schemes: Integrate the commitment scheme to enhance security and functionality.
-
-- Type Conversions: Create a robust set of type conversion functions to facilitate seamless development.
-
-### Enhance Official Documentation and Tutorials
-
-- Audit of Existing Documentation: Conduct a thorough review of the current documentation to pinpoint inaccuracies and areas for improvement.
-
-- Update Standard Library Information: Provide detailed information about the standard library, including examples and best practices.
-
-- Creation of New Tutorials: Develop comprehensive tutorials that guide developers through various aspects of ZoKrates development.
-
-### 
 
 ```plantuml
 ------------------------------
@@ -49,10 +32,10 @@ The main accomplishments of this hackathon include: ZoKrates-DTP is implemented 
 Recognizing the significance of neural networks in machine learning, our project introduces a streamlined Perceptron library. This library simplifies the integration of Perceptron, a fundamental building block in neural networks, into ZoKrates. By providing developers with easy-to-use tools, we empower them to construct and train advanced neural networks, harnessing the potential of zero-knowledge methodologies to preserve privacy and confidentiality.
 
 
-### Summary
+## Summary
 Our project marks a good milestone in the advancement of zero-knowledge computation on ZoKrates. By combining the Decision Tree Prediction(ZoKrates-DTP) and Pedersen Commitment, we offer developers the means to build privacy-preserving and secure ML applications. Our project is not an end, but the beginning of strengthening ZoKrates capabilities and developer-friendliness in extensions and integrations.
 
-### Demo
+## Demo
 - [Pedersen Commitment Library](https://youtu.be/8kZHOQtp1Ck)
 
 
