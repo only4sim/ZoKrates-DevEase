@@ -1,2 +1,40 @@
-# ZoKrates-DevEase
-ZoKrates library extensions and developer-friendliness improvements
+# ZoKrates DevEase
+## Make ZoKrates more powerful and user-friendly.
+
+
+### Description
+Our visionary project is set to redefine the landscape of zero-knowledge by seamlessly integrating Zokrates, a powerful zero-knowledge proof system, and essential libraries into the Moonbeam blockchain network. With a focus on addressing critical verification challenges, enhancing privacy, and providing comprehensive tools for developers, we aim to unlock a new era of secure and privacy-preserving computation on the blockchain.
+
+
+### 
+
+```plantuml
+---------------------------
+|   ZoKrates DevEase       |
+---------------------------
+| -[x] Zokrates Connector  |
+| -[x] Pedersen Commitment |
+| -[]  Others             |
+----------------------------
+```
+
+### Overcoming Verification Challenges
+A key contribution of our project is tackling the persistent verification issues related to data types in on-chain processes. We recognize the paramount importance of efficient and reliable data verification for ensuring the integrity and validity of machine learning models. By harnessing the capabilities of Zokrates, we empower developers and researchers to overcome these challenges, facilitating trustworthy machine learning applications on Moonbeam. In addition, we have also solved the type matching problem of Zokrates when using ether.js, which is incorrectly documented in the current Zokrates documentation.
+
+### Robust Pedersen Commitment Library
+To enhance privacy and confidentiality in zero-knowledge machine learning, we have developed a robust Pedersen commitment library. Pedersen commitments play a crucial role in securely masking and encrypting sensitive data inputs within machine learning models. Our user-friendly and comprehensive library allows developers to seamlessly integrate this cryptographic technique into their Moonbeam applications, bolstering data privacy and enabling secure training and inference.
+
+### TODO: Streamlined Perceptron Library for Neural Network Builders
+Recognizing the significance of neural networks in machine learning, our project introduces a streamlined Perceptron library. This library simplifies the integration of Perceptron, a fundamental building block in neural networks, into Moonbeam. By providing developers with easy-to-use tools, we empower them to construct and train advanced neural networks, harnessing the potential of zero-knowledge methodologies to preserve privacy and confidentiality.
+
+
+### Summary
+Our project marks a good milestone in the advancement of zero-knowledge computation on Moonbeam. By combining the power of Zokrates with essential libraries, we offer developers the means to build privacy-preserving and secure applications. Whether it's overcoming verification challenges, leveraging Pedersen commitments for data masking, or utilizing the Perceptron library for neural network builders, our project sets the stage for the future of zero-knowledge computation on the Moonbeam blockchain.
+
+### Demo
+- [Pedersen Commitment Library](https://youtu.be/8kZHOQtp1Ck)
+
+
+Join us on this transformative journey as we empower developers to unlock the full potential of zero-knowledge proof, fostering privacy, security, and trust on the Moonbeam network. 
+
+*Notes: This project is based on ZoKrates and zk-base-Moonbeam and has been reorganized for JS calls.*
