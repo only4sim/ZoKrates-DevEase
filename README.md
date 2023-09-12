@@ -11,7 +11,7 @@ However, the current state of ZoKrates presents challenges that hinder its full 
 ## Goals
 Bring in machine learning abilities: Develop the Zero Knowledge Decision Tree Prediction for ZoKrates (ZoKrates-DTP), which could directly translate the decision tree with python to ZoKrates.
 
-Integrate other standard libraries: Integrate the Pedersen Commitment scheme to the whole ZoKrates DevEase project and set the plan for Type Conversions libraries.
+Integrate new libraries: Integrate the Pedersen Commitment scheme to the whole ZoKrates DevEase project and set the plan for Type Conversions libraries.
 
 Enhance Official Documentation and Tutorials: Revamp and update the existing documentation to make it more accurate, informative, and user-friendly, with a particular focus on the ether.js and standard library.
 
