@@ -1,10 +1,50 @@
 # ZoKrates DevEase
-## Make ZoKrates more powerful and user-friendly.
+
+## Vision
+Make ZoKrates more powerful and user-friendly.
+
+## Description
+ZoKrates is a vital toolset and language for developing and verifying zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge), a groundbreaking cryptographic technology that ensures privacy and scalability in various blockchain applications. As the demand for secure and efficient decentralized systems grows, ZoKrates plays a crucial role in enabling developers to create privacy-preserving protocols.
+
+However, the current state of ZoKrates presents challenges that hinder its full potential. The ZoKrates Library Extensions and Developer-Friendliness Improvements project aims to address these challenges by enhancing the existing libraries, simplifying development processes, and providing comprehensive documentation. This initiative is not only essential for the growth of ZoKrates but also pivotal in advancing the broader field of cryptography and decentralized technology.
 
 
-### Description
-Our visionary project is set to redefine the landscape of zero-knowledge by seamlessly integrating Zokrates, a powerful zero-knowledge proof system, and essential libraries into the Moonbeam blockchain network. With a focus on addressing critical verification challenges, enhancing privacy, and providing comprehensive tools for developers, we aim to unlock a new era of secure and privacy-preserving computation on the blockchain.
+## Importance of the Project
+Enhancing Functionality: Expanding the common libraries with different commitment schemes and type conversions will provide developers with more tools, enhancing the functionality and versatility of ZoKrates.
 
+Simplifying Development: The introduction of an ether.js library will streamline the development process, making ZoKrates more approachable and reducing the learning curve for new developers.
+
+Improving Documentation: Comprehensive and accurate documentation is vital for developer efficiency and innovation. By improving the official documentation and tutorials, this project will foster a more informed and collaborative community.
+
+## Goals
+Expand Common Libraries: Introduce additional commitment schemes, type conversions, and other essential components to enrich the ZoKrates library.
+
+Simplify Development with ether.js Library: Develop an ether.js library to streamline ZoKrates development, replacing the current defunct Javascript call instructions.
+
+Enhance Official Documentation and Tutorials: Revamp and update the existing documentation to make it more accurate, informative, and user-friendly, with a particular focus on the standard library.
+
+## Plans
+### Expand Common Libraries
+
+- Assessment of Current Libraries: Analyze existing libraries to identify gaps and areas for expansion.
+
+- Development of Commitment Schemes: Implement various commitment schemes to enhance security and functionality.
+
+- Type Conversions: Create a robust set of type conversion functions to facilitate seamless development.
+
+### Simplify Development with ether.js Library
+
+- Analysis of Current Javascript Instructions: Identify the limitations and issues with the existing Javascript call instructions.
+
+- Development of ether.js Library: Design and implement an ether.js library tailored to ZoKrates, ensuring compatibility and ease of use.
+
+### Enhance Official Documentation and Tutorials
+
+- Audit of Existing Documentation: Conduct a thorough review of the current documentation to pinpoint inaccuracies and areas for improvement.
+
+- Update Standard Library Information: Provide detailed information about the standard library, including examples and best practices.
+
+- Creation of New Tutorials: Develop comprehensive tutorials that guide developers through various aspects of ZoKrates development.
 
 ### 
 
@@ -37,4 +77,4 @@ Our project marks a good milestone in the advancement of zero-knowledge computat
 
 Join us on this transformative journey as we empower developers to unlock the full potential of zero-knowledge proof, fostering privacy, security, and trust on the Moonbeam network. 
 
-*Notes: This project is based on ZoKrates and zk-base-Moonbeam and has been reorganized for JS calls.*
+*Notes: This project is based on ZoKrates and zk-base-Moonbeam and has been reorganized for JS calls. We also maintain a [Buidl at Dorahacks](https://dorahacks.io/buidl/7000)*
