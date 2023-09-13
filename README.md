@@ -40,6 +40,6 @@ Our project marks a good milestone in the advancement of zero-knowledge computat
 - [Pedersen Commitment Library](https://youtu.be/8kZHOQtp1Ck)
 
 
-Join us on this transformative journey as we empower developers to unlock the full potential of zero-knowledge proof, fostering privacy, security, and trust on the Moonbeam network. 
+Join us on this transformative journey as we empower developers to unlock the full potential of zero-knowledge proof, fostering privacy, security, and trust on the blockchain. 
 
 *Notes: This project is based on ZoKrates and ZK-DTP. We also maintain a [Buidl at Dorahacks](https://dorahacks.io/buidl/7000)*
